@@ -1,17 +1,5 @@
 import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
 
-# Laden des vorab trainierten Stimmungsanalyse-Modells
-nltk.download('vader_lexicon')
-
-def analyze_sentiment(text):
-    sid = SentimentIntensityAnalyzer()
-    sentiment_scores = sid.polarity_scores(text)
-
-    # Bestimmung der Positivität, Negativität und Neutralität des Textes
-    if sentiment_scores['compound'] >= 0.05:
-        return 'Positiv'
-    elif sentiment_scores['compound'] <= -0.05:
         return 'Negativ'
     else:
         return 'Neutral'
