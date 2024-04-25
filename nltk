@@ -10,3 +10,55 @@ if __name__ == "__main__":
     sentiment_result = analyze_sentiment(text_to_analyze)
 
     print(f"Stimmung des Textes: {sentiment_result}")
+import nltk
+
+        return 'Negativ'
+    else:
+        return 'Neutral'
+
+if __name__ == "__main__":
+    text_to_analyze = input("Geben Sie den Text für die Stimmungsanalyse ein: ")
+
+    sentiment_result = analyze_sentiment(text_to_analyze)
+
+    print(f"Stimmung des Textes: {sentiment_result}")
+import nltk
+
+        return 'Negativ'
+    else:
+        return 'Neutral'
+
+if __name__ == "__main__":
+    text_to_analyze = input("Geben Sie den Text für die Stimmungsanalyse ein: ")
+
+    sentiment_result = analyze_sentiment(text_to_analyze)
+
+    print(f"Stimmung des Textes: {sentiment_result}")
+import nltk
+
+        return 'Negativ'
+    else:
+        return 'Neutral'
+
+if __name__ == "__main__":
+    text_to_analyze = input("Geben Sie den Text für die Stimmungsanalyse ein: ")
+
+    sentiment_result = analyze_sentiment(text_to_analyze)
+
+    print(f"Stimmung des Textes: {sentiment_result}")
+import nltk
+
+        return 'Negativ'
+    else:
+        return 'Neutral'
+
+if __name__ == "__main__":
+    text_to_analyze = input("Geben Sie den Text für die Stimmungsanalyse ein: ")
+
+    sentiment_result = analyze_sentiment(text_to_analyze)
+
+    print(f"Stimmung des Textes: {sentiment_result}")
+import nltk
+
+
+    print(f"Stimmung des Textes: {sentiment_result}")
