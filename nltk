@@ -1,10 +1,4 @@
-import nltk
-
-        return 'Negativ'
-    else:
-        return 'Neutral'
-
-if __name__ == "__main__":
+__name__ == "__main__":
     text_to_analyze = input("Geben Sie den Text für di
     sentiment_result = analyze_sentiment(text_to_analyze)
 
